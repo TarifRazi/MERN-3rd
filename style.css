@@ -179,5 +179,12 @@
   body main .gallery-container .card-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
+  }
+  body footer .footer-elements .useful-links {
+    margin-bottom: 30px;
+  }
+  body footer .footer-elements .comment-area {
+    margin-bottom: 30px;
   }
 }/*# sourceMappingURL=style.css.map */

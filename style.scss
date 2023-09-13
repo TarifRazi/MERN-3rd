@@ -256,6 +256,18 @@
                 .card-container{
                     display: grid;
                     grid-template-columns: repeat(1,1fr);
+                    padding: 10px;
+                }
+            }
+        }
+
+        footer{
+            .footer-elements{
+                .useful-links{
+                    margin-bottom: 30px;
+                }
+                .comment-area{
+                    margin-bottom: 30px;
                 }
             }
         }
