@@ -107,6 +107,9 @@
                 
 
                 .card-container{
+                    background-color: rgba(0, 0, 0, 0.322);
+                    padding: 50px;
+                    border-radius: 8px;
                     margin-top: 25px;
                     display: grid;
                     grid-template-columns: repeat(3,1fr);
@@ -118,6 +121,11 @@
                         background-color: white;
                         border: 2px solid gray;
                         padding: 15px;
+                        border-radius: 8px;
+
+                        h4{
+                            padding: 15px 0px;
+                        }
                         
                         img{
                             width: 100%;
@@ -227,6 +235,27 @@
                             }
                         }
                     }
+                }
+            }
+        }
+
+        main{
+            .hero-container{
+                height: 200px;
+
+                .hero-image{
+                    .hero-text{
+                        h1{
+                            font-size: 30px;
+                        }
+                    }
+                }
+            }
+
+            .gallery-container{
+                .card-container{
+                    display: grid;
+                    grid-template-columns: repeat(1,1fr);
                 }
             }
         }

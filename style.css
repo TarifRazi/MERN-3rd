@@ -77,6 +77,9 @@
   margin-bottom: 15px;
 }
 * body main .gallery-container .card-container {
+  background-color: rgba(0, 0, 0, 0.322);
+  padding: 50px;
+  border-radius: 8px;
   margin-top: 25px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -88,6 +91,10 @@
   background-color: white;
   border: 2px solid gray;
   padding: 15px;
+  border-radius: 8px;
+}
+* body main .gallery-container .card-container .card h4 {
+  padding: 15px 0px;
 }
 * body main .gallery-container .card-container .card img {
   width: 100%;
@@ -162,5 +169,15 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+  }
+  body main .hero-container {
+    height: 200px;
+  }
+  body main .hero-container .hero-image .hero-text h1 {
+    font-size: 30px;
+  }
+  body main .gallery-container .card-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 }/*# sourceMappingURL=style.css.map */
