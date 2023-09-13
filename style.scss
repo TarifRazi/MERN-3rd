@@ -131,6 +131,23 @@
                 }
             }
         }
+
+        footer{
+            padding: 20px;
+            background-color: #831D29;
+            text-align: center;
+            .footer-elements{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                margin-bottom: 40px;
+            }
+
+            small{
+                color: white;
+            }
+        }
     }
 
 }

@@ -95,4 +95,19 @@
   z-index: 1;
   box-shadow: 5px 5px 10px black;
   gap: 20px;
+}
+* body footer {
+  padding: 20px;
+  background-color: #831D29;
+  text-align: center;
+}
+* body footer .footer-elements {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+* body footer small {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
